@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import './App.css';
+import HeroScene from './HeroScene';
 
 function App() {
   const [query, setQuery] = useState('');
@@ -46,6 +47,7 @@ function App() {
 
       <main className="content">
         <section className="hero">
+          <HeroScene />
           <div className="hero-content">
             <div className="terminal-window">
               <div className="terminal-header">
