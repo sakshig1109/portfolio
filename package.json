@@ -25,12 +25,15 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "homepage": "https://sakshig1109.github.io/portfolio",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
     ],
     "development": [
       "last 1 chrome version",
